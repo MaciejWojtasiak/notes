@@ -1,0 +1,48 @@
+.login {
+    width: 100%;
+    min-height: 94vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginForm{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 8px;
+}
+.loginLabel ,.loginTitle{
+    color: rgb(214, 219, 219);
+}
+.loginTitle{
+    align-self: center;
+}
+
+.loginInput{
+    padding: .8rem;
+    border-radius: 10px;
+}
+.loginButton{
+    align-self: center;
+    padding: .3rem .6rem ;
+    border-radius: 10px;
+    background-color: teal;
+    color:rgb(214, 219, 219) ;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+.loginButton:hover {
+    background-color: rgb(39, 114, 114);
+}
+
+.registerBtn{
+    position: absolute;
+    top: 3.5rem;
+    right: 1rem;
+    padding: .3rem .6rem;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+}

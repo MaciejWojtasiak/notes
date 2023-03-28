@@ -1,0 +1,19 @@
+.note {
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #ECF0F1;
+    color: #272822;
+}
+.note_title {
+    text-transform: uppercase;
+}
+.note_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 1rem;
+}
+.note_delete{
+    cursor: pointer;
+}
